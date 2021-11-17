@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{3A7DB35C-69D4-4212-88B9-9F706307F3B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtGrant.ExampleServer", "example\JwtGrant.ExampleServer\JwtGrant.ExampleServer.csproj", "{5F882DA5-F16D-482D-B629-85439DA0ABA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtGrant.ExampleClient", "example\JwtGrant.ExampleClient\JwtGrant.ExampleClient.csproj", "{90DE6478-7233-44E6-B111-486804C66ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F882DA5-F16D-482D-B629-85439DA0ABA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F882DA5-F16D-482D-B629-85439DA0ABA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F882DA5-F16D-482D-B629-85439DA0ABA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F882DA5-F16D-482D-B629-85439DA0ABA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DE6478-7233-44E6-B111-486804C66ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DE6478-7233-44E6-B111-486804C66ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DE6478-7233-44E6-B111-486804C66ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DE6478-7233-44E6-B111-486804C66ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F882DA5-F16D-482D-B629-85439DA0ABA7} = {3A7DB35C-69D4-4212-88B9-9F706307F3B6}
+		{90DE6478-7233-44E6-B111-486804C66ADC} = {3A7DB35C-69D4-4212-88B9-9F706307F3B6}
+	EndGlobalSection
+EndGlobal
